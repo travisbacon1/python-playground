@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8" />
+			<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+		</head>
+		<div class="topnav">
+			<a class="active" href="/">Home</a>
+			<a href="/about">About</a>
+		</div>
+		<body>
+			<div class="page_container">
+				<H1 class="homepage_header">Home</H1>
+				<br>
+				The time is now {{time}}
+			</div>
+		</body>
+	</html>

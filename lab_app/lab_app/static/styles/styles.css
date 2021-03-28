@@ -1,0 +1,58 @@
+/* Global styling */
+
+* {
+    font-family: Verdana;
+}
+
+/* Header styling */
+H1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+H1.homepage_header {
+    color: blue;
+}
+
+H1.aboutpage_header {
+    color: red;
+}
+
+/* Nav bar styling */
+.topnav {
+    font-family:"Palatino";
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%; /* Full width */
+  }
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+/* Add an underline to the button on hover */
+.topnav a:hover {
+    color: #000000;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+/* Add an underline to the current page */
+.topnav a.active {
+    color: black;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+/* Container styling */
+.page_container {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    line-height: 150%;
+}
